@@ -1,0 +1,132 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Презентация проекта «Касание»</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            background: linear-gradient(90deg, #0073e6, #00c6ff);
+            -webkit-background-clip: text;
+            color: transparent;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 1.8em;
+            color: #0073e6;
+            margin-top: 20px;
+        }
+        p {
+            font-size: 1em;
+            color: #333;
+        }
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .skill-card {
+            background: #0073e6;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .skill-card:hover {
+            background: #005bb5;
+        }
+        .case-block {
+            background: #e6f2ff;
+            padding: 15px;
+            border-left: 4px solid #0073e6;
+            margin-top: 20px;
+        }
+        .tags-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .tag {
+            background: #0073e6;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            .skills-grid, .tags-grid {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Презентация проекта «Касание»</h1>
+        <p>Данная презентация призвана осветить ключевые аспекты и методологию распределения инфраструктурных затрат в рамках проекта «Касание». Наша цель — обеспечить прозрачность, эффективность и соответствие бюджетным ограничениям.</p>
+
+        <h2>Подход:</h2>
+        <p>Принимается во внимание количество актива (не стоимость).</p>
+        <ul>
+            <li>Если актив единственный, он принимает на себя все расходы, распределяемые на проект.</li>
+            <li>Если активов несколько, то каждый берет на себя пропорционально.</li>
+            <li>Если активы принадлежат разным проектам, расходы группируются по проекту.</li>
+        </ul>
+        <p>Под активами понимаются:</p>
+        <ul>
+            <li>Доля/акции в ЮЛ, инвестиционные паи</li>
+            <li>Займ, выданный в проект-поштучно (группа по заемщику)</li>
+            <li>Объект недвижимости</li>
+            <li>Право требования (группа по заемщику)</li>
+            <li>Ценные бумаги (группа по эмитенту)</li>
+        </ul>
+
+        <h2>Наши навыки:</h2>
+        <div class="skills-grid">
+            <div class="skill-card">Финансовый анализ</div>
+            <div class="skill-card">Бюджетирование</div>
+            <div class="skill-card">Управление проектами</div>
+            <div class="skill-card">Аудит</div>
+        </div>
+
+        <h2>Примеры кейсов:</h2>
+        <div class="case-block">
+            <p><strong>Кейс 1:</strong> Оптимизация затрат на инфраструктуру для проекта «Касание».</p>
+            <p><strong>Кейс 2:</strong> Распределение расходов между несколькими активами в рамках одного проекта.</p>
+        </div>
+
+        <h2>Инструменты:</h2>
+        <div class="tags-grid">
+            <div class="tag">Excel</div>
+            <div class="tag">Power BI</div>
+            <div class="tag">SAP</div>
+            <div class="tag">Oracle</div>
+        </div>
+    </div>
+</body>
+</html>
